@@ -1,5 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/3V4SFed_)
-# Exam Call 1 - Raffaele Pane (S305485)
+# Rest API: design and implementation
 
 The structure of this repository is the following:
   - [JSON Schemas](<./JSON Schemas/>) contains the design of the JSON Schemas;
