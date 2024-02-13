@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id" : "http://www.my-schema.com/delegation_schema.json",
+    "title": "Delegation",
+    "description": "JSON Schema for the Delegation data structures",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "$schema": {
+        "type": "string",
+        "description": "path to the JSON Schema to use for the validation of the data structure"
+      },
+      "filmId": {
+        "type": "integer",
+        "description": "unique identifier of the film for which this review invitation has been issued"
+      },
+      "reviewerId": {
+        "type": "integer",
+        "description": "unique identifier of the the user who has received this review invitation"
+      },
+      "delegatedId": {
+        "type": "integer",
+        "description": "unique identifier of the the user who has received this review delegation"
+      }
+    },
+    "required": ["filmId", "reviewerId", "delegatedId"]    
+  }
+  

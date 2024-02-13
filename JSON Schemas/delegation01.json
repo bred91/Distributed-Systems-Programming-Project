@@ -1,0 +1,6 @@
+{
+    "$schema": "./delegation_schema.json",
+    "filmId": 6,
+    "reviewerId": 1,
+    "delegatedId": 2
+}
